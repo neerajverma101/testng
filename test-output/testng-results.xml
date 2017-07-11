@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="108993" started-at="2017-07-11T07:48:26Z" finished-at="2017-07-11T07:50:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="108993" started-at="2017-07-11T07:48:26Z" finished-at="2017-07-11T07:50:15Z">
+      <class name="script.ValidLoginLogout">
+        <test-method status="PASS" signature="openapp(java.lang.String)[pri:0, instance:script.ValidLoginLogout@6adede5]" name="openapp" is-config="true" duration-ms="50117" started-at="2017-07-11T13:18:26Z" finished-at="2017-07-11T13:19:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:1, instance:script.ValidLoginLogout@6adede5]" name="testValidLoginLogout" duration-ms="27759" started-at="2017-07-11T13:19:16Z" finished-at="2017-07-11T13:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:script.ValidLoginLogout@6adede5]" name="closeapp" is-config="true" duration-ms="1100" started-at="2017-07-11T13:19:44Z" finished-at="2017-07-11T13:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- script.ValidLoginLogout -->
+      <class name="script.InvalidLogin">
+        <test-method status="PASS" signature="iniFramework()[pri:0, instance:script.InvalidLogin@5649fd9b]" name="iniFramework" is-config="true" duration-ms="23" started-at="2017-07-11T13:18:26Z" finished-at="2017-07-11T13:18:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniFramework -->
+        <test-method status="PASS" signature="openapp(java.lang.String)[pri:0, instance:script.InvalidLogin@5649fd9b]" name="openapp" is-config="true" duration-ms="20456" started-at="2017-07-11T13:19:45Z" finished-at="2017-07-11T13:20:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@5649fd9b]" name="testInvalidLogin" duration-ms="8543" started-at="2017-07-11T13:20:06Z" finished-at="2017-07-11T13:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:script.InvalidLogin@5649fd9b]" name="closeapp" is-config="true" duration-ms="972" started-at="2017-07-11T13:20:14Z" finished-at="2017-07-11T13:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- script.InvalidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

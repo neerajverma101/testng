@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationSuite]">
+  <test name="AutomationTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="script.WBTEXTBASE2">
+        <methods>
+          <include name="openapp"/>
+          <include name="TestWBT"/>
+          <include name="iniFramework"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- script.WBTEXTBASE2 -->
+      <class name="script.WBTEXTBASE">
+        <methods>
+          <include name="TestWBT"/>
+          <include name="openapp"/>
+          <include name="iniFramework"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- script.WBTEXTBASE -->
+      <class name="script.WBTEXTBASEEXCEL">
+        <methods>
+          <include name="openapp"/>
+          <include name="iniFramework"/>
+          <include name="TestWBT"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- script.WBTEXTBASEEXCEL -->
+    </classes>
+  </test> <!-- AutomationTest(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->

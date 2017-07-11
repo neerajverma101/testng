@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrom"/>
+    <classes>
+      <class name="script.ValidLoginLogout">
+        <methods>
+          <include name="openapp"/>
+          <include name="iniFramework"/>
+          <include name="testValidLoginLogout"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- script.ValidLoginLogout -->
+      <class name="script.InvalidLogin">
+        <methods>
+          <include name="testInvalidLogin"/>
+          <include name="openapp"/>
+          <include name="iniFramework"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- script.InvalidLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
