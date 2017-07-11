@@ -28,6 +28,7 @@ public class EnterTimeTrackPage extends BasePage {
 
 	public void clickLicenses() {
 		log.info("Clicking on Licenses");
+		AutoUtility.sleep(2);
 		licensesLNK.click();
 	}
 }

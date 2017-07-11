@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="script.ValidLoginLogout">
+      <class name="script.VerifyProductEdition">
         <methods>
           <include name="openapp"/>
           <include name="iniFramework"/>
-          <include name="testValidLoginLogout"/>
           <include name="closeapp"/>
+          <include name="testProductEdition"/>
         </methods>
-      </class> <!-- script.ValidLoginLogout -->
+      </class> <!-- script.VerifyProductEdition -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

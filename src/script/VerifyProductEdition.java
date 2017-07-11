@@ -9,7 +9,7 @@ import page.LicensesPage;
 import page.LoginPage;
 
 public class VerifyProductEdition extends BaseTest {
-	@Test
+	@Test(priority=3)
 	public void testProductEdition() {
 		String un = Excel.getCellValue(INPUT_PATH, "VerifyProductEdition", 1, 0);
 		String pwd = Excel.getCellValue(INPUT_PATH, "VerifyProductEdition", 1, 1);
@@ -25,6 +25,7 @@ public class VerifyProductEdition extends BaseTest {
 		loginpage.clickLogin();
 		// click settings
 		EnterTimeTrackPage ettpage = new EnterTimeTrackPage(driver);
+		ettpage.clickSettings();
 		// click on License
 		ettpage.clickLicenses();
 		LicensesPage licensepage = new LicensesPage(driver);
